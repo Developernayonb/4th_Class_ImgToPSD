@@ -1,0 +1,288 @@
+body{
+    margin:0;
+    padding: 0;
+}
+/*========== Header Part CSS Start ==========*/
+header {
+    background: #121B2A;
+    padding: 10px 0;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.logo{
+    width: 18%;
+    float: left;
+}
+.logo img {
+    width: 100%;
+}
+.menu {
+    width: 70%;
+    float: right;
+    margin-top: 25px;
+}
+.menu ul{
+    list-style: none;
+    float: right;
+}
+.menu ul li{
+    float: left;
+}
+.menu ul li a{
+    font-size: 14px;
+    color: #fff;
+    padding: 0 16px;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: .5s;
+}
+.menu ul li a:hover{
+    color: #0077BE;
+}
+.menu ul li:last-child a{
+    padding-right: 0;
+}
+/*========== Header Part CSS End ==========*/
+
+/*========== Banner Part CSS Start ==========*/
+.banner {
+    background-image: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.banner-content {
+    width: 50%;
+    margin-top: 200px;
+    margin-bottom: 50px;
+}
+.banner-content h2{
+  font-weight: 400;
+    font-size: 30px;
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.banner-content h1 {
+    font-size: 34px;
+    color: #0245B8;
+    margin: 0 0;
+}
+.banner-content p{
+    font-size: 16px;
+    color: #fff;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+.banner-content button{
+    color: #5A5A5A;
+    text-transform: uppercase;
+    padding: 10px 25px;
+    border: none;
+    margin: 30px 0;
+}
+.banner-content button img{
+    width: 10px;
+}
+/*========== Banner Part CSS End ==========*/
+/*========== Service Part CSS Start ==========*/
+.services{
+    background: #121B2C;
+     padding: 30px 0 20px;
+}
+.single{
+    width: 29%;;
+    border-right: 1px solid #1f2017;
+    padding: 18px;
+    float: left;
+}
+.single:last-child{
+    border-right: none;
+}
+.top{
+    overflow: hidden;
+}
+
+.icon {
+    width: 28%;
+    float: left;
+}
+.icon img{
+    width: 100%;
+}
+.service_content{
+    width: 65%;
+    float: left;
+}
+.service_content h2{
+  font-weight: 400;
+    font-size: 22px;
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.service_content h2 span{
+   font-size: 23px;
+    color: #0275B8;
+    margin: 0 0;
+}
+.service_content h1{
+    font-size: 23px;
+    color: #0275B8;
+    margin: 0 0;
+}
+.bottom {}
+.bottom{
+    font-size: 16px;
+    color: #fff;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+/*========== Contact Part CSS Start ==========*/
+.contact {
+    background: #040811;
+    padding: 30px 0 20px;
+}
+.contact_single {
+    width: 30%;
+    float: left;
+    padding: 10px 15px;
+}
+.contact_single {
+    
+}
+.contact_info h3 {
+    color: #d3d5d7;
+    font-size: 20px;
+}
+.contact_info h4 {
+    color: #d3d5d7;
+    margin-bottom: -15px;
+}
+.contact_info span {
+    color: #0275B8;
+}
+.contact_info p {
+    color: #969291;
+    font-size: 16px;
+}
+.contact_bg {
+    background: #0c1019;
+    padding: 1px 20px;
+    position: relative;
+}
+.contact_bg:before {
+    position: absolute;
+    content: "";
+    top: 171px;
+    left: 200px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 20px 60px 0 0;
+    border-color: #0c1019 transparent transparent transparent;
+    line-height: 0px;
+    _border-color: #0c1019 #000000 #000000 #000000;
+    _filter: progid:DXImageTransform.Microsoft.Chroma(color='#000000');
+}
+.mobial_app{
+    width: 30%;
+    float: left;
+}
+.apps_content{
+    width: 60%;
+    float: right;
+
+}
+/*========== Footer Part CSS Start ==========*/
+.footer{
+    background: #121B2C;
+     padding: 30px 0 20px;
+}
+.footer_content{
+    width: 60%;
+    float: left;
+}
+.footer_content ul {
+    list-style: none;
+}
+.footer_content ul li {
+    display: inline-block;
+    color: #b6b4bb;
+    padding: 10px 12px;
+    position: relative;
+    font-size: 16px;
+}
+/*
+.footer_content ul li:before {
+    position: absolute;
+    content: "";
+    background: #b4b6bb;
+    height: 20px;
+    width: 2px;
+    right: -2px;
+    bottom: 10px;
+}
+.footer_content ul li:last-child{}
+
+*/
+.footer_content ul li:before {
+    content: "|";
+    position: absolute;
+    margin-left: -15px;
+}
+.footer_content ul li:first-child:before {
+    content: "";
+    position: absolute;
+    margin-left: -15px;
+}
+.footer_content p {
+    color: #b4b6bb;
+    padding: 0px 40px;
+}
+
+.footer_logo{
+    width: 30%;
+    float: right;
+}
+.footer_logo h1 {
+    color: #424a57;
+    font-size: 40px;
+    float: left;
+    margin-left: -30px;
+    font-weight: 600;
+}
+.footer_logo img {
+    width: 53%;
+    float: right;
+    margin-top: 25px;
+}
+
+
+
+
+
+/*========== box-shadow Part CSS Start ==========*/
+.contact_thumbnail img {
+    width: 100%;
+}
+.contact_thumbnail img {
+    width: 90%;
+    border: 20px solid #fff;
+    box-shadow: 0 0 20px #f00;
+    transition: .9s;
+}
+
+.contact_thumbnail img:hover {
+    margin: 3px;
+    padding: 10px;
+}
+
+
